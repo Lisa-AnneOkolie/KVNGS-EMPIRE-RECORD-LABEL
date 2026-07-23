@@ -50,8 +50,8 @@ Everything editable lives in two places:
   divs with `<img>` tags once you have real photography.
 
 Also update the Google Maps embed in the Contact section: replace
-`q=Lagos,Nigeria` in the iframe `src` with your real address, e.g.
-`q=123+Example+Street,Lagos`.
+`q=Abraka,Nigeria` in the iframe `src` with your real address, e.g.
+`q=123+Example+Street,Abraka`.
 
 ## 3. Add real audio tracks
 
