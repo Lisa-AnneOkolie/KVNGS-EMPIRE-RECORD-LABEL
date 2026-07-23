@@ -497,10 +497,11 @@ input,textarea,select{ font-family: inherit; }
 .social{ display:flex; gap: 10px; margin-bottom: 30px; }
 .social__link{
   width: 40px; height:40px; border-radius:50%; border: 1px solid var(--line);
-  display:flex; align-items:center; justify-content:center; font-size: .72rem; font-weight:800; color: var(--gold-light);
-  transition: border-color .3s var(--ease), transform .3s var(--ease), background .3s var(--ease);
+  display:flex; align-items:center; justify-content:center; color: var(--gold-light);
+  transition: border-color .3s var(--ease), transform .3s var(--ease), background .3s var(--ease), color .3s var(--ease);
 }
-.social__link:hover{ border-color: var(--gold); transform: translateY(-3px); background: rgba(212,175,55,.08); }
+.social__link svg{ width: 18px; height: 18px; fill: currentColor; }
+.social__link:hover{ border-color: var(--gold); transform: translateY(-3px); background: rgba(212,175,55,.08); color: var(--gold); }
 .map{ border-radius: var(--radius); overflow:hidden; border: 1px solid var(--line); }
 .map iframe{ filter: grayscale(.2) invert(.92) contrast(.9); display:block; }
 .map__note{ padding: 12px 14px; font-size: .76rem; color: var(--ivory-dim); background: var(--navy-1); }
